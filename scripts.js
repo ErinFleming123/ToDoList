@@ -29,6 +29,9 @@ class ToDoClass {
     <li class="list-group-item checkbox">
       <div class="row">
         <div class="col-md-1 col-xs-1 col-1g-1 col-sm-1 checkbox">
+        <label><input id="toggleTaskStatus" type="checkbox"
+        onchange="toDo.toggleTaskStatus(${index})" value="" class=""
+        ${task.isComplete?'checked':''}></label>
         </div>
       </div>
     </li>`
