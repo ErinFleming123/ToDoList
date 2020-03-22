@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
   
+  
 }
 .starter-template {
   padding: 40px 15px;
@@ -31,7 +32,7 @@ body {
 .complete {
   text-decoration: line-through;
 }
-.container {
-  background-color: lightblue;
 
+.background {
+  background-color: lightblue;
 }
