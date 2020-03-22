@@ -11,8 +11,8 @@ window.addEventListener("load", () => {
 
 class ToDoClass {
   constructor() {
-    this.tasks = JSON.parse(localStorage.getItems('TASKS'));
-      if(!this.tasks) {
+    //this.tasks = JSON.parse(localStorage.getItems('TASKS'));
+      //if(!this.tasks) {
         this.tasks = [
         
       
