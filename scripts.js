@@ -11,8 +11,7 @@ window.addEventListener("load", () => {
 
 class ToDoClass {
   constructor() {
-    //this.tasks = JSON.parse(localStorage.getItems('TASKS'));
-      //if(!this.tasks) {
+   
         this.tasks = [
         
       
@@ -24,7 +23,7 @@ class ToDoClass {
     this.loadTasks();
     
   }
-}
+
     
 loadTasks(){
     let tasksHtml = this.tasks.reduce((html, task, index) => html += 
@@ -84,5 +83,7 @@ loadTasks(){
      }
 
   }
+}
+
 
 
